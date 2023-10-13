@@ -2,5 +2,5 @@
 
 void display()
 {
-    printout("temadu_shell$");
+    printout("temadu_shell$ ");
 }
