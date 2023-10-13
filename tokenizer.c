@@ -11,11 +11,9 @@ void tokenizer(char **buff)
     while(token != NULL)
     {
         argx[j++] = token;
-       
         token = strtok(NULL, del);
     }
 
-     printf("%s\n", argx[0]);
 
  
 }
