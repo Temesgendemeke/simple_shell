@@ -15,7 +15,7 @@ void tokenizer(char **buff)
       
     }
 
-  char *argx = {NULL,NULL};
+ 
 
  
 

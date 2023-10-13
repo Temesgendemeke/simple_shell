@@ -12,5 +12,10 @@
 
 
 void printout(char *s);
+void display();
 void tokenizer(char **buff);
+void handle();
+void readx(char **s);
+
+
 #endif
