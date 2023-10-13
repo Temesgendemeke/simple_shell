@@ -5,9 +5,12 @@
 #include <string.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <sys/wait.h>
 
-void display();
+#define MAX_ARGS 10
+#define MAX_LINE_LENGTH 100
+
+
 void printout(char *s);
-void handle();
-void readx(char **s);
+void tokenizer(char **buff);
 #endif
