@@ -10,10 +10,10 @@
 #define MAX_ARGS 10
 #define MAX_LINE_LENGTH 100
 
-
+extern char **environ;
 void printout(char *s);
 void display();
-void tokenizer(char **buff);
+char **tokenizer(char **buff);
 void readx(char **s);
 
 
