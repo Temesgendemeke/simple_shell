@@ -1,6 +1,8 @@
 #include "main.h"
-
-void display()
+/**
+ * display - prompt
+ */
+void display(void)
 {
-    printout("$ ");
+	printout("$ ");
 }

@@ -12,8 +12,8 @@
 
 extern char **environ;
 void printout(char *s);
-void display();
-char **tokenizer(char **buff);
+void display(void);
+char **tokenizer(char *buff);
 void readx(char **s);
 
 
