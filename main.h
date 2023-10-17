@@ -15,6 +15,7 @@ void printout(char *s);
 void display(void);
 char **tokenizer(char *buff);
 void readx(char **s);
-
+int _strcmp(const char *s1, const char *s2);
+unsigned int  _strlen(char *s);
 
 #endif
