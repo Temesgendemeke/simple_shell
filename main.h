@@ -16,5 +16,4 @@ void display(void);
 char **tokenizer(char *buff);
 void readx(char **s);
 
-
 #endif

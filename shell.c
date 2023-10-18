@@ -53,13 +53,20 @@ int main(void)
 			pid = fork();
 			if (pid == 0)
 			{
-				execve(args[0], args, environ);
-				perror("./hsh");
+				if (strcmp(args[0], "ls") == 0)
+				{
+				execve("/bin/ls", args, environ);
+				}
+				else
+				{
+					 execve(args[0], args, environ);
+				}
+				perror("./a.out");
 				exit(EXIT_FAILURE);
 			}
 			else if (pid < 0)
 			{
-				perror("./hsh");
+				perror("./a.out");
 			}
 			else
 			{
