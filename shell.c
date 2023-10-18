@@ -35,11 +35,11 @@ int main(void)
 			}
 			args[i] = NULL;
 			i = 0;
-			if (_strcmp(args[0], "exit") == 0)
+			if (strcmp(args[0], "exit") == 0)
 			{
 				break;
 			}
-			if (_strcmp(args[0], "env") == 0)
+			if (strcmp(args[0], "env") == 0)
 			{
 				while (environ[i])
 				{
