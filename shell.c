@@ -39,7 +39,6 @@ int main(void)
 				continue;
 			if (strcmp(args[0], "exit") == 0)
 			{
-			       
 				break;
 			}
 			if (strcmp(args[0], "env") == 0)
