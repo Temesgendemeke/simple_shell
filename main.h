@@ -9,7 +9,7 @@
 
 #define MAX_ARGS 10
 #define MAX_LINE_LENGTH 100
-
+#define BUFFER_SIZE 1024
 extern char **environ;
 void printout(char *s);
 void display(void);
