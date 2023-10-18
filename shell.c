@@ -18,7 +18,7 @@ int main(void)
 	while (1)
 	{
 
-		/*display();*/
+		display();
 		num = getline(&buff, &n, stdin);
 		if (num == -1)
 		{
@@ -39,6 +39,7 @@ int main(void)
 				continue;
 			if (strcmp(args[0], "exit") == 0)
 			{
+			       
 				break;
 			}
 			if (strcmp(args[0], "env") == 0)
