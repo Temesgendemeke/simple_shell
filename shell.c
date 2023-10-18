@@ -13,7 +13,7 @@ int main(void)
 	int status;
 	char *token;
 	int i = 0;
-	char *args[8000];
+	char *args[8000] = {NULL};
 
 	while (1)
 	{
@@ -35,6 +35,8 @@ int main(void)
 			}
 			args[i] = NULL;
 			i = 0;
+			if (args[0] == NULL)
+				continue;
 			if (strcmp(args[0], "exit") == 0)
 			{
 				break;
