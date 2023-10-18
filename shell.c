@@ -18,7 +18,7 @@ int main(void)
 	while (1)
 	{
 
-		display();
+		/*display();*/
 		num = getline(&buff, &n, stdin);
 		if (num == -1)
 		{
