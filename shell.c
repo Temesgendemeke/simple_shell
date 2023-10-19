@@ -46,6 +46,7 @@ int main(void)
 				while (environ[i])
 				{
 					printout(environ[i]);
+					printout("\n");
 					i++;
 				}
 				printout("\n");
