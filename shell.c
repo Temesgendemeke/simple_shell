@@ -46,16 +46,16 @@ int main(void)
 				while (environ[i])
 				{
 					printout(environ[i]);
-					printout("\n");
 					i++;
 				}
+				printout("\n");
 				i = 0;
 				continue;
 			}
 			pid = fork();
 			if (pid == 0)
 			{
-				if (strcmp(args[1], "ls") == 0)
+				if (strcmp(args[0], "ls") == 0)
 				{
 				execve("/bin/ls", args, environ);
 				}
