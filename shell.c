@@ -55,7 +55,7 @@ int main(void)
 			pid = fork();
 			if (pid == 0)
 			{
-				if (strcmp(args[0], "ls") == 0)
+				if (strcmp(args[1], "ls") == 0)
 				{
 				execve("/bin/ls", args, environ);
 				}
